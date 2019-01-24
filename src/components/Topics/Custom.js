@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export default class Palindrome extends Component {
+export default class Custom extends Component {
   constructor() {
     super();
 
@@ -22,7 +22,7 @@ export default class Palindrome extends Component {
   render() {
     return (
       <div className='puzzleBox palindromePB'>
-        <h4> Palindrome </h4>
+        <h4> Custom. unfinished </h4>
         <input
           className='inputLine'
           onChange={e => this.handleChange(e.target.value)}
